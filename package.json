@@ -1,0 +1,23 @@
+{
+  "name": "Panogram",
+  "version": "1.0.0",
+  "description": "Panogram packager by electron.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "pack:win": "electron-builder --project=www --win -p never",
+    "pack:mac": "electron-builder --project=www --mac -p never",
+    "pack:linux": "electron-builder --project=www --linux -p never"
+  },
+  "repository": "https://github.com/heyanyidui/panogram-electron",
+  "keywords": [
+    "Electron",
+    "Panogram"
+  ],
+  "author": "heyanyidui",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^9.2.0",
+    "electron-builder": "^22.8.0"
+  }
+}
